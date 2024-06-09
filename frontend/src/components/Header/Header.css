@@ -1,0 +1,131 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background:url('/header_img.png') no-repeat;
+    background-size: cover;
+} 
+
+.header-contents{
+    /* position:absolute; */
+    display: flex;
+    background-size: 100%;
+    /* background-image: 100vw 1; */
+    flex-direction: column;
+    align-items: start;
+    gap: 2.5vw;
+    margin: 20px 55px;
+    padding: 30px 20px;
+    max-width: 50%;
+    bottom: 15%;
+    left: 16vw;
+    animation: fadeIn 3s ;
+    
+
+}
+
+
+.header-contents h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw,22px);
+}
+
+.header-contents p{
+    color: white;
+    font-size: 1vw;
+
+}
+
+.header-contents button{
+    border: nonw;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw,13px);
+    border-radius: 50px;
+    
+}
+
+
+@media (max-width:1050px) {
+  
+
+    .header-contents{
+        max-width: 60%;
+    }
+}
+
+@media (max-width:750px) {
+    .header{
+        background-image: 100vw ,100vh;
+
+    }
+   
+  
+    .header-contents {
+        max-width: 60%;
+        font-weight: 600;
+        margin: 24px 9px;
+        padding: 26px 6px;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}
+@media (max-width:425px) {
+    .header{
+        background-image: 100vw ,100vh;
+
+    }
+   
+    
+  .header-contents{
+    
+        max-width: 70%;
+        font-weight: 500;
+        margin: 24px 3px;
+        padding: 20px 8px;
+       
+    }
+    .header-contents button{
+        margin: 4px -3px;
+        font-weight: 800;
+       
+    }
+    .header-contents p{
+        display: none;
+    }
+}
+
+@media (max-width:400px) {
+    .header{
+        background-image: 100vw ,100vh;
+
+    }
+   
+    
+  .header-contents{
+    
+    max-width: 70%;
+    font-weight: 500;
+    margin: 25px 0px;
+    padding: 0px 6px;
+       
+    }
+    .header{
+        height: 38vw;
+        margin: 30px auto;
+      
+    } 
+    .header-contents button{
+        margin: 9px -2px;
+        font-weight: 800;
+        padding: 5px 11px;
+        font-size: 9px
+       
+    }
+    .header-contents p{
+        display: none;
+    }
+}
