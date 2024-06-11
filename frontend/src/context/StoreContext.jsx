@@ -4,7 +4,7 @@ import axios from "axios";
 
 const StoreContextProvider = (props) => {
     const [cartItems, setcartItems] = useState({})
-    const url = "http://localhost:4000";
+    const url = "https://full-stack-zomatoalike1.onrender.com";
     const [token, settoken] = useState("")
     const [food_list, setfood_list] = useState([])
 
